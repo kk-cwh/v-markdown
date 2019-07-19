@@ -1,6 +1,6 @@
 {
   "name": "@zkhh/v-markdown",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "main": "lib/v-markdown.umd.min.js",
   "private": false,
   "license": "MIT",

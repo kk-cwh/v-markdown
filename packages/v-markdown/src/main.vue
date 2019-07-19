@@ -46,7 +46,6 @@ export default {
       type: Object,
       default: () => {
         return {
-          renderer: new marked.Renderer(),
           gfm: true,
           tables: true,
           breaks: true,
