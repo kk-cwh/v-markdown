@@ -1,28 +1,20 @@
 # v-markdown
 
-## Project setup
+### Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install @zkhh/v-markdown --save
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### 全局引用组件
+
 ```
 
-### Run your tests
-```
-npm run test
+import VMarkdown from '@zkhh/v-markdown'
+Vue.use(VMarkdown)
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
+
 ```
 
 ### Customize configuration

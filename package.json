@@ -1,12 +1,12 @@
 {
-  "name": "v-markdown",
+  "name": "@zkhh/v-markdown",
   "version": "0.1.0",
   "main": "lib/v-markdown.umd.min.js",
   "private": false,
   "license": "MIT",
   "author": "Mr.Zhang <zhangykvip@126.com>",
-  "description":"a vue markdown component , used marked highlight emojione",
-  "keyword":"v-markdown vue-markdown marked highlight emojione",
+  "description": "a vue markdown component , used marked highlight emojione",
+  "keyword": "v-markdown vue-markdown marked highlight emojione",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -53,5 +53,24 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhangyake/v-markdown.git"
+  },
+  "keywords": [
+    "v-markdown",
+    "vue-markdown",
+    "marked",
+    "highlight",
+    "emojione"
+  ],
+  "bugs": {
+    "url": "https://github.com/zhangyake/v-markdown/issues"
+  },
+  "homepage": "https://github.com/zhangyake/v-markdown#readme"
 }
