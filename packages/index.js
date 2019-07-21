@@ -22,5 +22,5 @@ export default {
     // 导出的对象必须具备一个 install 方法
     install,
     // 组件
-    VMarkdown
+    ...components
 }

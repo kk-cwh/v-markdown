@@ -1,6 +1,6 @@
 {
   "name": "@zkhh/v-markdown",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "main": "lib/v-markdown.umd.min.js",
   "private": false,
   "license": "MIT",
@@ -11,7 +11,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name v-markdown --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name v-markdown --dest lib packages/v-markdown/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
