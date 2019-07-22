@@ -3,12 +3,12 @@
 > 一个基于vue的markdown解析组件，其中code高亮风格支持[highlight.js](https://highlightjs.org/)的各种style，支持解析[emojione](https://www.joypixels.com/)表情
 
 ### 安装 install
-```
+```bash
     npm install @zkhh/v-markdown --save
 ```
 ### 单个文件中使用组件
 
-```
+```js
 <template>
   <div>
     <v-markdown :mdText="mdDefault" 
@@ -35,7 +35,7 @@ export default {
 
 ### 全局使用组件
 
-```
+```js
 import VMarkdown from '@zkhh/v-markdown'
 
 Vue.use(VMarkdown)
@@ -47,7 +47,7 @@ Vue.use(VMarkdown)
 
 ### example
 
-```
+```js
 <template>
   <div id="app">
     <img alt="Vue logo"
