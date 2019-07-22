@@ -3,7 +3,7 @@
     <img alt="Vue logo"
          src="./assets/logo.png">
     <v-markdown :mdText="mdDefault"
-                :themeUrl="themeUrl"
+                :theme="theme"
                 width="1200px"
                 height="800px"
                 fontSize="16px"
@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       mdDefault: '```\nhello world\n```',
-      themeUrl: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/far.min.css',
+      theme: 'far',
       options:{
          sanitize: false,
          sanitizer:function(value){

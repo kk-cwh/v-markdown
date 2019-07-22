@@ -2,7 +2,7 @@
   <div class="v-editor" :style="{width,height,fontSize}">
     <div class="editor-flex">
       <div class="editor-content">
-        <textarea class="markdown-area" :style="{fontSize}" v-model="mdString" />
+        <textarea class="markdown-area" :style="{fontSize}" v-model="mdString" placeholder="输入..." />
       </div>
       <div
         class="editor-preview"
@@ -37,10 +37,9 @@ export default {
          type:String,
          default:'14px'
     },
-    themeUrl: {
+    theme: {
       type: String,
-      default:
-        "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/atom-one-dark.min.css"
+      default: "atom-one-dark"
     },
     options: {
       type: Object,
@@ -64,7 +63,7 @@ export default {
     };
   },
   watch: {
-    themeUrl(value) {
+    theme(value) {
       this.addOrUpdateCssLink(value);
     },
     mdString(value) {
@@ -83,16 +82,18 @@ export default {
   },
   mounted() {
     this.mdString = this.mdText;
-    this.addOrUpdateCssLink(this.themeUrl);
+    this.addOrUpdateCssLink(this.theme);
   },
   methods: {
     addOrUpdateCssLink(value) {
+      var themeUrl ="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/"+value+".min.css"
+
       var link = document.getElementById("highlight_style");
       if (link) {
-        link.href = value;
+        link.href = themeUrl;
       } else {
         link = document.createElement("link");
-        link.href = value;
+        link.href = themeUrl;
         link.id = "highlight_style";
         link.rel = "stylesheet";
         document.head.append(link);
