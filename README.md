@@ -42,8 +42,8 @@ Vue.use(VMarkdown)
 
 ```
 ### 效果截图
-
-![demo](https://github.com/zhangyake/v-markdown/blob/master/examples/assets/demo.png)
+![1](https://raw.githubusercontent.com/zhangyake/v-markdown/master/examples/assets/kjj.png)
+![2](https://raw.githubusercontent.com/zhangyake/v-markdown/master/examples/assets/demo.png)
 
 ### example
 
