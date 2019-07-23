@@ -1,6 +1,6 @@
 #  v-markdown
 
-> 一个基于vue的markdown解析组件，其中code高亮风格支持[highlight.js](https://highlightjs.org/)的各种style，支持解析[emojione](https://www.joypixels.com/)表情
+> 一个基于vue的markdown解析组件，其中code高亮风格支持[highlight.js](https://highlightjs.org/)的各种style，支持解析[emojione](https://www.joypixels.com/)表情,以及快捷键操作。
 
 ### 安装 install
 ```bash
