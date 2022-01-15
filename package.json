@@ -17,7 +17,7 @@
     "core-js": "^2.6.5",
     "emojione": "^4.5.0",
     "highlight.js": "^9.15.8",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "vue": "^2.6.10"
   },
   "devDependencies": {
